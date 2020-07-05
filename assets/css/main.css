@@ -403,36 +403,9 @@ button.style2:hover,
   -ms-transition-delay: 1.25s;
   transition-delay: 1.25s;
   position: absolute;
-  top: 15em;
   margin: 0;
   width: 100%;
 }
-/* 
-#headerSection .intro::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -9em;
-  left: 50%;
-  height: 9em;
-  border-left: solid 1px #fff;
-} */
-
-#headerSection .intro::before {
-  content: "";
-  display: block;
-  width: 90px;
-  height: 70px;
-  position: absolute;
-  left: 50%;
-  align-items: center;
-  /* top: 15%; */
-  top: 6em;
-  margin-left: -45px;
-  margin-bottom: -33px;
-  background: url("images/arrow.svg") no-repeat;
-}
-
 body.is-preload #headerSection {
   opacity: 0;
 }
@@ -497,7 +470,7 @@ body.is-preload #headerSection .intro {
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  /* margin-top: -10em; */
+  margin-top: -7em;
   height: 20px;
 }
 
@@ -508,7 +481,7 @@ body.is-preload #headerSection .intro {
 }
 
 #footer a:hover {
-  color: #35b88f;
+  color: #b10b0b;
   text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
   border-bottom-color: rgba(53, 184, 143, 0.5);
 }
@@ -522,6 +495,10 @@ body.is-preload #headerSection .intro {
 #footer .copyright {
   font-size: 0.8em;
   height: 10px;
+}
+
+#footer .footer-link {
+  text-decoration: none;
 }
 
 /* Wide */
@@ -545,14 +522,22 @@ body.is-preload #headerSection .intro {
   /* Banner */
 
   #banner {
-    padding: 4em 0 4em 0;
+    padding: 4em 0 2em 0;
     background-size: auto, 175% auto;
   }
 
   /* Header */
 
   #headerSection {
-    padding: 8em 0 10em 0;
+    padding: 8em 0 2em 0;
+  }
+
+  .textedanim {
+    margin-top: 10px;
+  }
+
+  #footer {
+    margin-top: 5px;
   }
 }
 
@@ -578,7 +563,7 @@ body.is-preload #headerSection .intro {
   /* Header */
 
   #headerSection {
-    padding: 10em 0 12em 0;
+    padding: 10em 0 5em 0;
   }
 
   /* Banner */
@@ -606,7 +591,7 @@ body.is-preload #headerSection .intro {
 
   body {
     line-height: 1.5em;
-    font-size: 12pt;
+    font-size: 15pt;
     letter-spacing: 0;
   }
 
@@ -615,11 +600,11 @@ body.is-preload #headerSection .intro {
   h4,
   h5,
   h6 {
-    font-size: 1em;
+    font-size: 10em;
   }
 
   h2 {
-    font-size: 1.25em;
+    font-size: 5em;
     letter-spacing: 4px;
   }
 
@@ -677,12 +662,16 @@ body.is-preload #headerSection .intro {
   /* Header */
 
   #headerSection {
-    padding: 6em 0 6em 0;
+    padding: 10em 0 4em 0;
+    align-items: center;
+    position: relative;
+    justify-content: center;
   }
 
   #headerSection header {
     padding-left: 2em;
     padding-right: 2em;
+    font-size: 16px;
   }
 
   #headerSection header h1 {
@@ -694,8 +683,7 @@ body.is-preload #headerSection .intro {
     bottom: 4.5em;
     padding: 0 2em 0 2em;
   }
-
-  #headerSection .intro::after {
+  */ #headerSection .intro::after {
     bottom: -4.5em;
     left: 50%;
     height: 4.5em;
@@ -728,6 +716,10 @@ body.is-preload #headerSection .intro {
   }
 
   /* Footer */
+
+  #footer {
+    margin-top: 20px;
+  }
 
   #footer .icons {
     padding: 0.5em 1.25em 0.5em 1.25em;
