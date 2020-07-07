@@ -570,13 +570,6 @@ body.is-preload #headerSection .intro {
   display: inline-block;
   margin: 0 0 3em 0;
 }
-
-#footer .copyright {
-  color: #000;
-  font-size: 0.8em;
-  height: 10px;
-}
-
 #footer .footer-link {
   text-decoration: none;
 }
@@ -910,10 +903,5 @@ body.is-preload #headerSection .intro {
 
   #footer .icons {
     padding: 0.5em 1.25em 0.5em 1.25em;
-  }
-
-  #footer .copyright {
-    font-size: 1em;
-    margin: 0 0 4em 0;
   }
 }
