@@ -597,11 +597,10 @@ body.is-preload #headerSection .intro {
 
   .intro {
     padding: 0 2em 0 2em;
-  }
-  .intro {
-    position: relative;
+	position: relative;
     top: 40%;
   }
+  
   #headerSection .intro::after {
     position: relative;
     top: -50%;
